@@ -1,6 +1,6 @@
 import os
 import openai
-openai.organization = "org-iVW1xyJlllZ2SMoJm403Isws"
+openai.organization = "org-iVW********************s"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.Model.list()
 def generate_prompt_response(prompt):
